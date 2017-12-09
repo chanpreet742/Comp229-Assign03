@@ -11,7 +11,7 @@ namespace Comp229_Assign03
 {
 
 
-    public partial class CourseEnrollmentPage
+    public partial class StudentPage
     {
     }
 }

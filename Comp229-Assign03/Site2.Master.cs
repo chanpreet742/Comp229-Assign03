@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Comp229_Assign03
 {
-	public partial class UpdatePage1 : System.Web.UI.Page
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
+    public partial class Site2 : System.Web.UI.MasterPage
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-		}
-	}
+        }
+    }
 }
