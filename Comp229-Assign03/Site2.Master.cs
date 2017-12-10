@@ -13,19 +13,20 @@ namespace Comp229_Assign03
         {
             switch (Page.Title)
             {
-                case "Home Page":
+                case "HomePage":
                     Page.Title = string.Format("RougeHill University");
                     break;
-                case "Student":
+                case "StudentPage":
                     Page.Title = string.Format("Students Page");
                     break;
-                case "Courses":
+                case "CourseEnrollmentPage":
                     Page.Title = string.Format("Courses Page");
                     break;
-                case "Update":
+                case "UpdatePage":
                     Page.Title = string.Format("Updates Page");
                     break;
             }
         }
+       
     }
 }

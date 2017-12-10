@@ -12,26 +12,31 @@
 <body>
     <form id="form1" runat="server">
        <div>
-        <nav class="navbar navbar-inverse">
-  <div class="container" style="margin:auto; width:980px; background-color:lightblue">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-          <li id="home" runat="server"><a href="HomePage.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i>HOME</a></li>
-          <li id="Student" runat="server"><a href="StudentPage.aspx"><i class="fa fa-Student fa-lg" aria-hidden="true"></i>STUDENT</a></li>
-          <li id="Courses" runat="server"><a href="CourseEnrollmentPage.aspx"><i class="fa fa-Courses fa-lg" aria-hidden="true"></i>COURSES</a></li>
-          <li id="Updates" runat="server"><a href="UpdatePage.aspx"><i class="fa fa-Updates fa-lg" aria-hidden="true"></i>UPDATES</a></li>
+           <a href="#"> <img src="Images/Capture.png" width= "160px" height= "150px" alt="Logo page"> </a>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                </div>
+				
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
 
-    </ul>   
-  </div>
-      </div>
-            <a href="#"> <img src="Images/Capture.png" width= "300px" height= "200px" alt="Logo page"> </a>
-</nav></div>
-        <div style="background-image:url('Images/back.jpg');">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-            <div id="allPage" style="width:1080px; margin-left:auto; margin-right:auto;">
-                  </div>
+                        <li><a runat="server" href="~/HomePage">HomePage</a></li>
+                        <li><a runat="server" href="~/StudentPage">StudentPage</a></li>
+                        <li><a runat="server" href="~/CourseEnrollmentPage">CourseEnrollmentPage</a></li>
+                        <li><a runat="server" href="~/UpdatePage">UpdatePage</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+        </div>
+           </div>
     </form>
 </body>
 </html>
+
+

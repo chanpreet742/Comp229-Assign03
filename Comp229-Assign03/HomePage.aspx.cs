@@ -13,5 +13,10 @@ namespace Comp229_Assign03
         {
 
         }
+
+        protected void StudentGridView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -69,7 +69,6 @@
     <None Include="packages.config" />
     <Content Include="CourseEnrollmentPage.aspx" />
     <Content Include="HomePage.aspx" />
-    <Content Include="Images\back.jpg" />
     <Content Include="Images\blue.jpg" />
     <Content Include="Images\book.jpg" />
     <Content Include="Images\books.jpg" />
