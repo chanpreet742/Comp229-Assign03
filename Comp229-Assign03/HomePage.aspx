@@ -3,4 +3,5 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div id="allPage" style="width:1080px; margin-left:auto; margin-right:auto;">
+         </div>
 </asp:Content>

@@ -69,6 +69,11 @@
     <None Include="packages.config" />
     <Content Include="CourseEnrollmentPage.aspx" />
     <Content Include="HomePage.aspx" />
+    <Content Include="Images\back.jpg" />
+    <Content Include="Images\blue.jpg" />
+    <Content Include="Images\book.jpg" />
+    <Content Include="Images\books.jpg" />
+    <Content Include="Images\Capture.PNG" />
     <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
